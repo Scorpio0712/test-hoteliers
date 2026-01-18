@@ -9,6 +9,7 @@ public class test_Nine {
         int binaryString = scanner.nextInt();
 
         System.out.println("Result: " + binary_to_decimal(binaryString));
+        scanner.close();
     }
 
     public static int binary_to_decimal(int binary) {

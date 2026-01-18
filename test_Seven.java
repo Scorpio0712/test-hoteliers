@@ -10,6 +10,7 @@ public class test_Seven {
         int numB = scanner.nextInt();
 
         System.out.println("result: " + (triangleFormula(numA, numB)));
+        scanner.close();
     }
 
     public static int triangleFormula(int a, int b) {
